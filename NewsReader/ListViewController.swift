@@ -18,6 +18,7 @@ class ListViewController: UITableViewController {
                             cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         // Storyboard上で「Cell」とアイデンティファイしたアイテムと関連づける
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
+        cell.textLabel?.text = "article title"
         return cell
     }
 }
