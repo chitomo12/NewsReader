@@ -70,4 +70,18 @@ class ListViewController: UITableViewController, XMLParserDelegate {
     func parserDidEndDocument(_ parser: XMLParser) {
         self.tableView.reloadData()
     }
+    
+    // DetailViewControllerとの連携
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // ユーザーがタップしたセルの行番号を取得するには
+        // indexPathForSelectedRowプロパティを使う。
+        if let indexPath = self.tableView.indexPathForSelectedRow {
+            let item = items[indexPath.row]
+            // 遷移先のビューコントローラーを格納
+            let controller = segue.destination as! DetailViewController
+            // ナビゲーションバーに表示する記事タイトル
+            controller.title = item.title
+            controller.link = item.link
+        }
+    }
 }
