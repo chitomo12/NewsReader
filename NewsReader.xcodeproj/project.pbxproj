@@ -14,6 +14,7 @@
 		13C2553027328D5F0076D504 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13C2552E27328D5F0076D504 /* LaunchScreen.storyboard */; };
 		13C2553827328D9F0076D504 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C2553727328D9F0076D504 /* ListViewController.swift */; };
 		13C2553C2732A2CE0076D504 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C2553B2732A2CE0076D504 /* Item.swift */; };
+		13C255412732AD000076D504 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C255402732AD000076D504 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		13C2553127328D5F0076D504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13C2553727328D9F0076D504 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		13C2553B2732A2CE0076D504 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		13C255402732AD000076D504 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			children = (
 				13C2552327328D5D0076D504 /* AppDelegate.swift */,
 				13C2552527328D5D0076D504 /* SceneDelegate.swift */,
+				13C255402732AD000076D504 /* DetailViewController.swift */,
 				13C2552927328D5D0076D504 /* Main.storyboard */,
 				13C2553727328D9F0076D504 /* ListViewController.swift */,
 				13C2553B2732A2CE0076D504 /* Item.swift */,
@@ -143,6 +146,7 @@
 			files = (
 				13C2553C2732A2CE0076D504 /* Item.swift in Sources */,
 				13C2552427328D5D0076D504 /* AppDelegate.swift in Sources */,
+				13C255412732AD000076D504 /* DetailViewController.swift in Sources */,
 				13C2552627328D5D0076D504 /* SceneDelegate.swift in Sources */,
 				13C2553827328D9F0076D504 /* ListViewController.swift in Sources */,
 			);
